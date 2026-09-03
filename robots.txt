@@ -1,0 +1,17 @@
+# Slow Linen Organic
+# Everything on this site is public and crawlable.
+
+User-agent: *
+Allow: /
+
+# Google's ad crawlers need access to render pages they may serve ads on.
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+Sitemap: https://www.slowlinenorganic.com/sitemap.xml
